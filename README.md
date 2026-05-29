@@ -20,15 +20,11 @@
 
 ## What I Build
 
-I build **uncertainty-aware decision systems**: tools that help people choose, compare, monitor,
-and explain decisions when forecasts, risks, constraints, or model assumptions matter.
+I build **uncertainty-aware decision systems**: tools that help people choose, compare, monitor, and explain decisions when forecasts, risks, constraints, or model assumptions matter.
 
-My work usually starts with a mathematical model and ends as something usable: a tested Python
-package, a Streamlit or FastAPI interface, diagnostics, visual reports, and a README that explains
-the trade-offs without hiding the assumptions.
+My work usually starts with a mathematical model and ends as something usable: a tested Python package, a Streamlit or FastAPI interface, diagnostics, visual reports, and a README that explains the trade-offs without hiding the assumptions.
 
-Public examples include energy analytics, quantitative finance, risk modelling, and applied AI
-tooling. The common thread is not the sector; it is making uncertainty visible, testable, and useful.
+Public examples include energy analytics, quantitative finance, risk modelling, and applied AI tooling. The common thread is not the sector; it is making uncertainty visible, testable, and useful.
 
 | Signal | What it means in practice |
 | --- | --- |
@@ -43,8 +39,7 @@ tooling. The common thread is not the sector; it is making uncertainty visible, 
 
 ## Featured Projects
 
-Selected public portfolio projects. Additional production work includes private/internal
-repositories in energy analytics, building diagnostics, and operational risk modelling.
+Selected public portfolio projects. Additional production work includes private/internal repositories in energy analytics, building diagnostics, and operational risk modelling.
 
 <table>
   <tr>
