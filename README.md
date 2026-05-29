@@ -101,13 +101,75 @@ the trade-offs without hiding the assumptions.
 
 ## Build Stack
 
-| Layer | Tools |
-| --- | --- |
-| Modelling and numerics | Python, NumPy, pandas, SciPy, scikit-learn, statsmodels |
-| Optimization and risk | CVXPY, stochastic scenarios, CVaR, calibration, sensitivity analysis |
-| Apps and APIs | Streamlit, FastAPI, Plotly, Matplotlib, Seaborn |
-| Engineering quality | pytest, Ruff, GitHub Actions, config-driven pipelines, reproducible reports |
-| Communication | Markdown, LaTeX tables, PDF exports, charts, model cards, technical summaries |
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>Modelling Core</h3>
+      <p>Numerical and statistical engines for calibration, forecasting, scoring, and diagnostics.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Python-111827?style=flat-square&logo=python&logoColor=white" alt="Python">
+        <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" alt="NumPy">
+        <img src="https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white" alt="pandas">
+        <img src="https://img.shields.io/badge/SciPy-8CAAE6?style=flat-square&logo=scipy&logoColor=white" alt="SciPy">
+        <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white" alt="scikit-learn">
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>Optimization + Risk</h3>
+      <p>Decision logic for constrained choices, uncertainty bands, scenario stress, and tail-risk trade-offs.</p>
+      <p>
+        <img src="https://img.shields.io/badge/CVXPY-334155?style=flat-square" alt="CVXPY">
+        <img src="https://img.shields.io/badge/CVaR-f59e0b?style=flat-square" alt="CVaR">
+        <img src="https://img.shields.io/badge/conformal%20calibration-0f766e?style=flat-square" alt="conformal calibration">
+        <img src="https://img.shields.io/badge/scenario%20analysis-2563eb?style=flat-square" alt="scenario analysis">
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>Product Surfaces</h3>
+      <p>Interfaces that make models usable: dashboards, APIs, charts, reports, and deployable demos.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white" alt="Streamlit">
+        <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI">
+        <img src="https://img.shields.io/badge/Plotly-3F4F75?style=flat-square&logo=plotly&logoColor=white" alt="Plotly">
+        <img src="https://img.shields.io/badge/Matplotlib-11557c?style=flat-square" alt="Matplotlib">
+        <img src="https://img.shields.io/badge/Seaborn-4c72b0?style=flat-square" alt="Seaborn">
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>Engineering Quality</h3>
+      <p>Repo structure, tests, linting, CI, config, and reproducible commands so projects can be trusted and extended.</p>
+      <p>
+        <img src="https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white" alt="pytest">
+        <img src="https://img.shields.io/badge/Ruff-D7FF64?style=flat-square&logo=ruff&logoColor=111827" alt="Ruff">
+        <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions">
+        <img src="https://img.shields.io/badge/config--driven-475569?style=flat-square" alt="config driven">
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>Technical Communication</h3>
+      <p>Readable artifacts for clients, reviewers, and hiring managers: model cards, PDFs, charts, and technical notes.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Markdown-000000?style=flat-square&logo=markdown&logoColor=white" alt="Markdown">
+        <img src="https://img.shields.io/badge/LaTeX-008080?style=flat-square&logo=latex&logoColor=white" alt="LaTeX">
+        <img src="https://img.shields.io/badge/PDF%20reports-b91c1c?style=flat-square" alt="PDF reports">
+        <img src="https://img.shields.io/badge/model%20cards-7c3aed?style=flat-square" alt="model cards">
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>AI Integration</h3>
+      <p>Applied AI where it belongs: controlled prompts, human review, export workflows, and clear limitations.</p>
+      <p>
+        <img src="https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white" alt="OpenAI">
+        <img src="https://img.shields.io/badge/human--in--the--loop-2563eb?style=flat-square" alt="human in the loop">
+        <img src="https://img.shields.io/badge/explainable%20outputs-16a34a?style=flat-square" alt="explainable outputs">
+      </p>
+    </td>
+  </tr>
+</table>
 
 ## Operating Style
 
