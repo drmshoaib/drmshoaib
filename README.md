@@ -20,7 +20,7 @@ My work usually starts with a mathematical or statistical model and ends with so
 | Engineering | Python, C++20, FastAPI, Streamlit, React, SQL, testing, CI and reproducible workflows |
 
 <p align="center">
-  <img src="assets/project_constellation.svg" alt="Selected project constellation" width="100%">
+  <img src="assets/project_constellation.svg" alt="Research and product map" width="100%">
 </p>
 
 ## Featured Work
@@ -28,10 +28,10 @@ My work usually starts with a mathematical or statistical model and ends with so
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>1. WattVector</h3>
-      <p><strong>AI-enabled decision support for renewable-energy operations.</strong></p>
-      <p>WattVector converts renewable-generation uncertainty into operational decisions. It combines probabilistic forecasts, calibrated uncertainty, scenario stress testing and risk-aware dispatch analysis so users can compare expected outcomes, downside exposure and alternative operating strategies before committing to a plan.</p>
-      <p>The public application provides an interactive workflow for forecast review, uncertainty assessment and dispatch analysis.</p>
+      <h3>WattVector — Renewable Energy Decision Intelligence</h3>
+      <p><strong>Probabilistic forecasting and risk-aware dispatch for renewable-energy operations.</strong></p>
+      <p>WattVector turns uncertain renewable-generation forecasts into operational decisions. It combines quantile forecasting, calibrated uncertainty, scenario analysis and risk-aware optimisation so users can compare dispatch strategies, expected cost and downside exposure through an interactive decision-support application.</p>
+      <p>The public product provides a direct workflow from forecast uncertainty to operational comparison and dispatch analysis.</p>
       <p>
         <img src="https://img.shields.io/badge/domain-energy-0f766e?style=flat-square" alt="energy">
         <img src="https://img.shields.io/badge/AI-probabilistic%20forecasting-2563eb?style=flat-square" alt="probabilistic forecasting">
@@ -40,7 +40,7 @@ My work usually starts with a mathematical or statistical model and ends with so
       <p><a href="https://wattvector.streamlit.app/"><strong>Launch WattVector</strong></a></p>
     </td>
     <td width="50%" valign="top">
-      <h3>2. Quant Research Lab</h3>
+      <h3>Quant Research Lab</h3>
       <p><strong>Reproducible cross-sectional quantitative research with a sealed hold-out.</strong></p>
       <p>An ETF ranking programme built around next-open execution, purged expanding-window validation, HAC/Newey-West inference, placebo testing, multiple-testing control, transaction costs and explicit robustness checks.</p>
       <p>Current frozen development result: mean 5-session rank IC <strong>0.02701</strong>, HAC <strong>t = 3.922</strong>, <strong>p = 8.78e-5</strong>; positive mean IC in 12 of 13 eligible development years. The final 252-date hold-out remains locked.</p>
@@ -54,7 +54,7 @@ My work usually starts with a mathematical or statistical model and ends with so
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>3. Latent Performance Benchmarking</h3>
+      <h3>Latent Performance Benchmarking</h3>
       <p>Factor-adjusted portfolio benchmarking with full cross-portfolio HAC inference, empirical-Bayes shrinkage, bootstrap rank uncertainty and forward validation.</p>
       <p>The primary joint HAC/Wald test rejects zero alpha across the 25 portfolios with <strong>p = 6.42e-10</strong>. Across 89 forward windows, Fisher-averaged rank correlation is <strong>0.102</strong> with HAC 95% CI 0.055–0.149.</p>
       <p>
@@ -65,7 +65,7 @@ My work usually starts with a mathematical or statistical model and ends with so
       <p><a href="https://github.com/drmshoaib/latent-performance-benchmarking"><strong>Open repository</strong></a></p>
     </td>
     <td width="50%" valign="top">
-      <h3>4. Heston Model Calibration</h3>
+      <h3>Heston Model Calibration</h3>
       <p>Stochastic-volatility calibration using the Heston model, Lewis Fourier pricing, implied-volatility inversion, bounded numerical optimisation, multi-start checks and surface-level diagnostics.</p>
       <p>The repository is structured as a reproducible quantitative-finance project with tests, numerical convergence checks, diagnostic plots and an accompanying technical note.</p>
       <p>
@@ -78,7 +78,7 @@ My work usually starts with a mathematical or statistical model and ends with so
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>5. OceanWatchAI</h3>
+      <h3>OceanWatchAI</h3>
       <p>Maritime intelligence MVP for explainable AIS trajectory analysis and suspicious-behaviour triage. The core engine is written in <strong>C++20</strong>, with a FastAPI backend, React/TypeScript analyst interface, SQL persistence, geospatial outputs and Docker-based deployment tooling.</p>
       <p>
         <img src="https://img.shields.io/badge/core-C%2B%2B20-00599C?style=flat-square&logo=cplusplus&logoColor=white" alt="C++20">
@@ -88,7 +88,7 @@ My work usually starts with a mathematical or statistical model and ends with so
       <p><a href="https://github.com/drmshoaib/OceanWatch"><strong>Open repository</strong></a></p>
     </td>
     <td width="50%" valign="top">
-      <h3>6. What's Under the Hood?</h3>
+      <h3>What's Under the Hood?</h3>
       <p><strong>LinkedIn lecture series on the mathematics behind machine learning.</strong></p>
       <p>Each lecture starts from a familiar machine-learning API and works down to the objective function, geometry, optimisation, numerical linear algebra and implementation choices underneath it. The emphasis is on derivation, worked examples, failure modes and reproducible Python.</p>
       <p>
