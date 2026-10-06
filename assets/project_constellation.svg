@@ -1,62 +1,81 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" role="img" aria-labelledby="title desc">
-  <title id="title">Project constellation</title>
-  <desc id="desc">A visual map of projects across energy, finance, risk, academic AI, and health analytics.</desc>
+  <title id="title">Research and product map</title>
+  <desc id="desc">Current public work across energy, quantitative research, applied mathematics, scientific computing and technical teaching.</desc>
+
   <defs>
     <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#f8fafc"/>
-      <stop offset="1" stop-color="#eef8f7"/>
+      <stop offset="0" stop-color="#08111f"/>
+      <stop offset="0.52" stop-color="#102a43"/>
+      <stop offset="1" stop-color="#0b3d46"/>
     </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="52%" r="48%">
+      <stop offset="0" stop-color="#38bdf8" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#08111f" stop-opacity="0"/>
+    </radialGradient>
     <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#0f172a" flood-opacity="0.12"/>
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#000000" flood-opacity="0.30"/>
     </filter>
   </defs>
+
   <rect width="1280" height="640" rx="28" fill="url(#panel)"/>
-  <text x="72" y="80" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="36" font-weight="850" fill="#172033">Selected Build Map</text>
-  <text x="72" y="116" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17" fill="#475569">Projects grouped by the decisions they help people make under uncertainty.</text>
+  <rect width="1280" height="640" rx="28" fill="url(#glow)"/>
 
-  <g stroke="#94a3b8" stroke-width="2" opacity="0.8">
-    <line x1="640" y1="322" x2="262" y2="210"/>
-    <line x1="640" y1="322" x2="498" y2="184"/>
-    <line x1="640" y1="322" x2="828" y2="184"/>
-    <line x1="640" y1="322" x2="1014" y2="236"/>
-    <line x1="640" y1="322" x2="356" y2="464"/>
-    <line x1="640" y1="322" x2="692" y2="502"/>
-    <line x1="640" y1="322" x2="972" y2="452"/>
+  <text x="72" y="76" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="34" font-weight="850" fill="#ffffff">Research &amp; Product Map</text>
+  <text x="72" y="112" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17" fill="#cbd5e1">Applied mathematics, AI and engineering across energy, quantitative research and scientific computing.</text>
+
+  <g stroke="#7dd3fc" stroke-width="2" opacity="0.35">
+    <line x1="640" y1="328" x2="228" y2="206"/>
+    <line x1="640" y1="328" x2="520" y2="188"/>
+    <line x1="640" y1="328" x2="906" y2="198"/>
+    <line x1="640" y1="328" x2="1080" y2="294"/>
+    <line x1="640" y1="328" x2="250" y2="478"/>
+    <line x1="640" y1="328" x2="530" y2="510"/>
+    <line x1="640" y1="328" x2="854" y2="500"/>
   </g>
 
   <g filter="url(#shadow)">
-    <circle cx="640" cy="322" r="72" fill="#172033"/>
-    <text x="640" y="310" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="800" fill="#ffffff">Decision</text>
-    <text x="640" y="338" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="800" fill="#ffffff">Intelligence</text>
+    <circle cx="640" cy="328" r="78" fill="#0f172a" stroke="#38bdf8" stroke-opacity="0.65"/>
+    <text x="640" y="306" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16" font-weight="750" fill="#a7f3d0">APPLIED</text>
+    <text x="640" y="333" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="21" font-weight="850" fill="#ffffff">Maths + AI</text>
+    <text x="640" y="361" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" fill="#bae6fd">Engineering</text>
   </g>
 
   <g filter="url(#shadow)">
-    <rect x="108" y="164" width="308" height="92" rx="18" fill="#ecfeff" stroke="#67e8f9"/>
-    <text x="134" y="198" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="800" fill="#155e75">GridRisk AI</text>
-    <text x="134" y="226" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" fill="#475569">Probabilistic renewable dispatch</text>
+    <rect x="76" y="154" width="304" height="104" rx="18" fill="#0f3b46" stroke="#67e8f9"/>
+    <text x="102" y="181" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="800" fill="#67e8f9" letter-spacing="1">PRODUCT</text>
+    <text x="102" y="211" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="21" font-weight="850" fill="#ffffff">WattVector</text>
+    <text x="102" y="238" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" fill="#cbd5e1">Renewable-energy decision intelligence</text>
 
-    <rect x="392" y="138" width="212" height="92" rx="18" fill="#eff6ff" stroke="#93c5fd"/>
-    <text x="418" y="172" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="800" fill="#1d4ed8">Heston</text>
-    <text x="418" y="200" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" fill="#475569">Option calibration</text>
+    <rect x="392" y="136" width="256" height="104" rx="18" fill="#142b4a" stroke="#93c5fd"/>
+    <text x="418" y="163" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="800" fill="#93c5fd" letter-spacing="1">QUANT RESEARCH</text>
+    <text x="418" y="193" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20" font-weight="850" fill="#ffffff">Quant Research Lab</text>
+    <text x="418" y="220" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" fill="#cbd5e1">Signals · validation · inference</text>
 
-    <rect x="728" y="138" width="244" height="92" rx="18" fill="#f0fdf4" stroke="#86efac"/>
-    <text x="754" y="172" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="800" fill="#166534">Latent Performance</text>
-    <text x="754" y="200" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" fill="#475569">Portfolio benchmarking</text>
+    <rect x="774" y="146" width="264" height="104" rx="18" fill="#163927" stroke="#86efac"/>
+    <text x="800" y="173" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="800" fill="#86efac" letter-spacing="1">STATISTICAL RESEARCH</text>
+    <text x="800" y="203" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="19" font-weight="850" fill="#ffffff">Latent Performance</text>
+    <text x="800" y="230" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" fill="#cbd5e1">Factor models · empirical Bayes</text>
 
-    <rect x="900" y="190" width="272" height="92" rx="18" fill="#fff7ed" stroke="#fed7aa"/>
-    <text x="926" y="224" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="800" fill="#c2410c">MoneyBuffer UK</text>
-    <text x="926" y="252" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" fill="#475569">Financial resilience + scam risk</text>
+    <rect x="1000" y="244" width="220" height="104" rx="18" fill="#24324c" stroke="#a5b4fc"/>
+    <text x="1026" y="271" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="800" fill="#a5b4fc" letter-spacing="1">TEACHING</text>
+    <text x="1026" y="301" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="850" fill="#ffffff">Under the Hood</text>
+    <text x="1026" y="328" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" fill="#cbd5e1">Mathematics behind ML</text>
 
-    <rect x="188" y="418" width="336" height="92" rx="18" fill="#fef2f2" stroke="#fca5a5"/>
-    <text x="214" y="452" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="800" fill="#b91c1c">Health Risk Calculator</text>
-    <text x="214" y="480" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" fill="#475569">Explainable screening workflow</text>
+    <rect x="92" y="426" width="270" height="104" rx="18" fill="#3b2637" stroke="#f0abfc"/>
+    <text x="118" y="453" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="800" fill="#f0abfc" letter-spacing="1">NUMERICAL FINANCE</text>
+    <text x="118" y="483" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20" font-weight="850" fill="#ffffff">Heston Calibration</text>
+    <text x="118" y="510" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" fill="#cbd5e1">Stochastic volatility · optimisation</text>
 
-    <rect x="576" y="456" width="232" height="92" rx="18" fill="#f5f3ff" stroke="#c4b5fd"/>
-    <text x="602" y="490" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="800" fill="#6d28d9">ScholarFix</text>
-    <text x="602" y="518" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" fill="#475569">Academic AI review assistant</text>
+    <rect x="408" y="458" width="244" height="104" rx="18" fill="#3b3020" stroke="#fde68a"/>
+    <text x="434" y="485" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="800" fill="#fde68a" letter-spacing="1">APPLIED MATHEMATICS</text>
+    <text x="434" y="515" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20" font-weight="850" fill="#ffffff">RA15 Four-Body</text>
+    <text x="434" y="542" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" fill="#cbd5e1">Celestial mechanics · numerics</text>
 
-    <rect x="856" y="406" width="232" height="92" rx="18" fill="#fefce8" stroke="#fde68a"/>
-    <text x="882" y="440" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="800" fill="#a16207">Research Tools</text>
-    <text x="882" y="468" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" fill="#475569">Numerics, tests, reports</text>
+    <rect x="724" y="448" width="260" height="104" rx="18" fill="#173845" stroke="#7dd3fc"/>
+    <text x="750" y="475" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="800" fill="#7dd3fc" letter-spacing="1">SCIENTIFIC SOFTWARE</text>
+    <text x="750" y="505" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20" font-weight="850" fill="#ffffff">OceanWatchAI</text>
+    <text x="750" y="532" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" fill="#cbd5e1">C++20 · AIS intelligence</text>
   </g>
+
+  <text x="72" y="594" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" fill="#94a3b8">Public portfolio · selected work</text>
 </svg>
